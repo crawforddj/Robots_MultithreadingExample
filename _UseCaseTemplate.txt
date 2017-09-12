@@ -1,0 +1,14 @@
+Use Case Name:
+
+Primary Actors:
+Requirement: The system shall...
+Story: As a _, I want to _, so that I can _
+Quality Requirements:
+Pre-Conditions:
+Post-Conditions:
+Relationships:
+Trigger: [External | Temporal]  Describe
+Normal Flow of Events:
+Alternate Flow of Events:
+
+UI States:
