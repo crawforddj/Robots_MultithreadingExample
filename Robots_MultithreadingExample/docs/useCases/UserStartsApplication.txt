@@ -1,0 +1,43 @@
+﻿================ Use Case Info ================
+Use Case Name: User Starts Application
+Project: Robots_MultithreadingExample
+Author: Daniel Crawford
+Last Edit: 9/12/17
+===============================================
+
+----------------- Setting ---------------------
+Primary Actors:
+	User, System
+
+Requirements:
+	- The system shall start the application when the user opens the application
+
+Story:
+	As a user, I want to open the application, so that I can use the application
+
+Quality Requirements:
+	None
+
+----------------- Conditions ------------------
+Pre-Conditions:
+	The application bin should be loaded on the machine
+
+Post-Conditions:
+	The application should be running on the machine
+
+----------------- Operational -----------------
+Relationships:
+	User Sets Up Battlefield
+Trigger:
+	External - User executes executable
+
+Normal Flow of Events:
+	1. User executes executable
+	2. System starts application
+	3. Application displays Battlefield Setup
+
+Alternate Flow of Events:
+	None
+
+UI States:
+None -> Battlefield Setup

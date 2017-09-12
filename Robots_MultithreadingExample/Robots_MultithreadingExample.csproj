@@ -49,6 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="docs\useCases\UserStartsApplication.txt" />
     <Content Include="docs\useCases\_UseCaseTemplate.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
