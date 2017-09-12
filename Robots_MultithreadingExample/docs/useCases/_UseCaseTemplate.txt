@@ -1,14 +1,41 @@
-Use Case Name:
+================ Use Case Info ================
+Use Case Name: _NAME_HERE
+Project: Robots_MultithreadingExample
+Author: Daniel Crawford
+Last Edit: 9/12/17
+===============================================
 
+----------------- Setting ---------------------
 Primary Actors:
-Requirement: The system shall...
-Story: As a _, I want to _, so that I can _
+	User
+
+Requirements:
+	- The system shall _DESC_HERE
+
+Story:
+	As a _, I want _, so that I can_
+
 Quality Requirements:
+	None
+
+----------------- Conditions ------------------
 Pre-Conditions:
+	The application bin should be loaded on the machine
+
 Post-Conditions:
+	The application should be running on the machine
+
+----------------- Operational -----------------
 Relationships:
-Trigger: [External | Temporal]  Describe
+	User Sets Up Battlefield
+
+Trigger: External | Internal - _DESC_HERE
+
 Normal Flow of Events:
+	1. 
+
 Alternate Flow of Events:
+	None
 
 UI States:
+_START -> _STATE1
