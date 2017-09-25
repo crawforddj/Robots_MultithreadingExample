@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Robots.Parts.Weapon
+namespace Robots.RobotParts
 {
-    public interface IWeapon
+    public interface IArmorModifier
     {
-        int GetDamage ( );
+        int GetArmorModAmount ( );
     }
 }

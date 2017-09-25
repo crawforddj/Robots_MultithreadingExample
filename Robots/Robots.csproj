@@ -40,16 +40,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Robot.cs" />
-    <Compile Include="Parts\Chassis\ChassisFactory.cs" />
-    <Compile Include="Parts\Chassis\IChassis.cs" />
-    <Compile Include="Parts\IRobotPart.cs" />
-    <Compile Include="Parts\Mobility\IMobilityPart.cs" />
-    <Compile Include="Parts\Mobility\MobilityPartFactory.cs" />
-    <Compile Include="Parts\Weapon\WeaponFactory.cs" />
-    <Compile Include="Parts\Weapon\IWeapon.cs" />
+    <Compile Include="RobotParts\Chassis\ChassisParts.cs" />
+    <Compile Include="RobotParts\Chassis\ChassisPartTypes.cs" />
+    <Compile Include="RobotParts\Mobility\MobilityParts.cs" />
+    <Compile Include="RobotParts\Mobility\MobilityPartTypes.cs" />
+    <Compile Include="RobotParts\Weapon\WeaponParts.cs" />
+    <Compile Include="RobotParts\Weapon\WeaponPartTypes.cs" />
+    <Compile Include="IRobot.cs" />
+    <Compile Include="RobotParts\Chassis\Factory_ChasisPart.cs" />
+    <Compile Include="RobotParts\IArmorModifier.cs" />
+    <Compile Include="RobotParts\IRobotPart.cs" />
+    <Compile Include="RobotParts\IMobilityModifier.cs" />
+    <Compile Include="RobotParts\Mobility\Factory_MobilityPart.cs" />
+    <Compile Include="RobotParts\Weapon\Factory_WeaponPart.cs" />
+    <Compile Include="RobotParts\IAttackModifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RobotFactory.cs" />
+    <Compile Include="Factory_Robot.cs" />
+    <Compile Include="Robots.cs" />
+    <Compile Include="RobotTypes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

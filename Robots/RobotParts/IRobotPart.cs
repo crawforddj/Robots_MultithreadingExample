@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Robots.Parts
+namespace Robots.RobotParts
 {
     public abstract class IRobotPart
     {

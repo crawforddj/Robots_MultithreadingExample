@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Robots.Parts.Chassis
+namespace Robots.RobotParts.Weapon
 {
-    public interface IChassis
+    public enum WeaponPartTypes
     {
-        int GetArmorRating ( );
+        Weiner_On_A_Stick,
+        PistonFists,
+        LaserSword
     }
 }

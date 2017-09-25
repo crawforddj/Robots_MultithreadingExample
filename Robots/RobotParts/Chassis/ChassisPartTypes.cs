@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Robots.Parts.Mobility
+namespace Robots.RobotParts.Chassis
 {
-    public interface IMobilityPart
+    public enum ChassisPartTypes
     {
-        int GetMobility ( );
+        CardboardBox,
+        RebarAndSheetMetal
     }
 }
